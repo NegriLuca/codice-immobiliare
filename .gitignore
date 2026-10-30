@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Raw scraper output (large / personal / portal content)
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.zip
+*.log
+Da_Chiamare_*
+Rapporto Affitti Prezzi.*
+
+# Browser drivers
+chromedriver
+chromedriver.exe
+chromedriver_*/
+geckodriver*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
